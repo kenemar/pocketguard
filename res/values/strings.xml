@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PocketGuard</string>
+    <string name="tile_label">Guard</string>
+    <string name="service_summary">Blocks keys and touches while the proximity sensor is covered</string>
+    <string name="service_desc">PocketGuard swallows keypad presses and touches while the proximity sensor reports an object nearby (phone in pocket) and the display is on. It does not read screen content. Needed so it can intercept hardware keys.</string>
+    <string name="overlay_text">Input blocked\n%1$s to disable</string>
+    <string name="toast_escape">PocketGuard disabled by escape sequence</string>
+    <string name="switch_enabled">Keyguard enabled</string>
+    <string name="label_lock_delay">Turn display off after (seconds, 0 = never):</string>
+    <string name="label_escape">Escape sequence (keys separated by spaces):</string>
+    <string name="hint_escape">* # * #</string>
+    <string name="help_escape">Press these keys in order while input is blocked to disable the keyguard (2 s max between presses). Allowed keys: 0-9 * # CALL BACK MENU UP DOWN LEFT RIGHT OK VOLUP VOLDOWN</string>
+    <string name="btn_save">Save settings</string>
+    <string name="btn_accessibility">Open accessibility settings</string>
+    <string name="saved">Settings saved</string>
+    <string name="err_delay">Lock delay must be a whole number of seconds</string>
+    <string name="err_escape">Escape sequence must have at least 4 valid keys</string>
+</resources>
